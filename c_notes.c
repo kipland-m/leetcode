@@ -66,7 +66,8 @@ int main(){
 	// With these 2 lines below, I am using the .2 in the format specifier to only display the first 2 decimal places of the variable.
 	printf("%.2f\n", precisionTestFloat);
 	printf("%.2f\n", precisionTestDouble);
-
+	
+	// 
 
 	return 0;
 }
