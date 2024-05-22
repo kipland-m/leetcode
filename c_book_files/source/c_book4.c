@@ -1,12 +1,24 @@
 #include <stdio.h>
 
+#define NONBLANK '-'
+
 int main(){
-	long nc;
 
-	nc = 0;
-	while (getchar() != EOF){
-		++nc;
-		printf("%ld\n",nc);
+	int c, lastc;
+
+	while ((c = getchar()) != EOF) {
+		printf("%d",c);
+		/*
+		if (c == '\t') {
+			if (lastc != '\t')
+				printf("%d",c);
+				putchar(c);
+
+		} else {
+			putchar(c);
+		}
+		lastc = c;
+		*/
+
 	}
-
 }
